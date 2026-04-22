@@ -1,0 +1,13 @@
+d={"name":"Shafana","age":98}
+print(d["name"])
+print(d)
+d["age"]=56
+print(d)
+d["city"]="Indore"
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d.pop("age"))
+d={["name","roll"]:("Shafana",56),"age":76}
+print(d)

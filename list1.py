@@ -1,0 +1,10 @@
+numbers=[10,2,20,1,30,5,40]
+#print(numbers.remove(10))
+#print(numbers)
+#print(numbers.pop(1))
+#print(numbers)
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+print(len(numbers))
