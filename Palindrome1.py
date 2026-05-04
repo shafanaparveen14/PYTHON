@@ -1,0 +1,10 @@
+#Palindrome using recursion
+def is_palindrome(s):
+    if len(s) <= 1:
+        return True
+    if s[0]!=s[-1]:
+        return False
+    #Recursive call
+    return is_palindrome(s[1:-1])
+word= "madam"
+print(is_palindrome(word))
